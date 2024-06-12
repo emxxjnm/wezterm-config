@@ -21,8 +21,9 @@ local function get_title(tab)
 end
 
 function M.setup()
-  wezterm.on("format-tab-title", function(tab, _, _, _, hover)
+  wezterm.on("format-tab-title", function(tab, _, _, _, hover, max_width)
     local title = get_title(tab)
+    title = wezterm.truncate_right(title, max_width - 2)
 
     local fg = colors.overlay1
     local bg = colors.surface0

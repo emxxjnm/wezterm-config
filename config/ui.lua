@@ -3,8 +3,11 @@ local M = {
 
   font_size = 15,
 
+  underline_position = -4,
+
   max_fps = 60,
   animation_fps = 60,
+  webgpu_power_preference = "HighPerformance",
   front_end = "WebGpu",
 
   -- cursor
@@ -17,6 +20,7 @@ local M = {
   window_padding = { left = 0, right = 0, top = 0, bottom = 0 },
 
   -- tab
+  tab_max_width = 20,
   tab_bar_at_bottom = true,
   use_fancy_tab_bar = false,
   show_new_tab_button_in_tab_bar = false,
