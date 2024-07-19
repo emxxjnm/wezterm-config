@@ -1,7 +1,12 @@
+local wezterm = require("wezterm")
+
 local M = {
   audible_bell = "Disabled",
 
+  -- default_prog = { "/usr/local/bin/nu" },
+
   font_size = 15,
+  font = wezterm.font("JetBrainsMono Nerd Font"),
 
   underline_position = -4,
 
