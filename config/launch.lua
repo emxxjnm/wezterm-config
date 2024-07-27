@@ -1,5 +1,10 @@
 local M = {
-  launch_menu = {},
+  launch_menu = {
+    {
+      label = "zsh",
+      args = { "zsh", "-l" },
+    },
+  },
 }
 
 return M
