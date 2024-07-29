@@ -1,8 +1,16 @@
 <h3 align="center">My Wezterm Config</h3>
 
+### Preview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e66d2acd-3ac6-47b3-bdfd-6dfea4b1756b" />
+</p>
+
 ### Key Bindings
 
 `Leader` or `Prefix` key: `Ctrl` + `Space`
+
+eg: `<Leader>` + c: Spawn New Tab, like tmux
 
 #### Tab
 
