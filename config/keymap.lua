@@ -22,7 +22,7 @@ M.keys = {
   -- Pane
   { key = "x", mods = "LEADER", action = act.CloseCurrentPane({ confirm = true }) },
   {
-    key = "-",
+    key = "_",
     mods = "LEADER",
     action = act.SplitPane({ direction = "Down", size = { Percent = 30 } }),
   },
@@ -42,7 +42,8 @@ M.keys = {
   { key = "J", mods = "LEADER", action = act.RotatePanes("CounterClockwise") },
 
   { key = "s", mods = "LEADER", action = act.QuickSelect },
-  { key = "f", mods = "LEADER", action = act.Search("CurrentSelectionOrEmptyString") },
+  { key = "/", mods = "LEADER", action = act.Search("CurrentSelectionOrEmptyString") },
+  { key = "?", mods = "LEADER", action = act.Search("CurrentSelectionOrEmptyString") },
   { key = "m", mods = "LEADER", action = act.ShowLauncherArgs({ flags = "LAUNCH_MENU_ITEMS" }) },
 
   { key = "1", mods = "LEADER", action = act.ActivateTab(0) },
