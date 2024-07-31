@@ -37,7 +37,7 @@ eg: `<Leader>` + c: Spawn New Tab, like tmux
 | Keys                     | Description                            |
 | ------------------------ | -------------------------------------- |
 | <kbd>x</kbd>             | Close Current Pane                     |
-| <kbd>-</kbd>             | Split Pane Vertical                    |
+| <kbd>_</kbd>             | Split Pane Vertical                    |
 | <kbd>\|</kbd>            | Split Pane Horizontal                  |
 
 ##### Pane: Navigation
@@ -66,11 +66,11 @@ eg: `<Leader>` + c: Spawn New Tab, like tmux
 
 #### Miscellaneous
 
-| Keys                     | Description                            |
-| ------------------------ | -------------------------------------- |
-| <kbd>s</kbd>             | Quick Select                           |
-| <kbd>f</kbd>             | Search(Find)                           |
-| <kbd>m</kbd>             | Show Launcher(Menu)                    |
+| Keys                      | Description                            |
+| ------------------------- | -------------------------------------- |
+| <kbd>/</kbd> <kbd>?</kbd> | Search                                 |
+| <kbd>s</kbd>              | Quick Select                           |
+| <kbd>m</kbd>              | Show Launcher(Menu)                    |
 
 #### Key Table
 
